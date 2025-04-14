@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import {BrowserRouter,Route,Routes} from "react-router-dom"
 import Dashboard from './Dashboard.pages'
+import AssessmentReview from './AssessmentReview'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route exact path="/dashboard" element={<Dashboard />} />
+      <Route  path="/dashboard/AssessmentReview" element={<AssessmentReview/>} />
     </Routes>
     </BrowserRouter>
     </>
