@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route exact path="/" element={<Dashboard/>} />
-      <Route path="/dashboard/AssessmentReview" element={<AssessmentReview/>} />
+      <Route path="/assessmentReview" element={<AssessmentReview/>} />
     </Routes>
     </BrowserRouter>
     </>
