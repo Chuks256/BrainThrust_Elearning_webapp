@@ -119,7 +119,7 @@ function DashboardNavbar() {
       {/* nav logo container ending  */}
 
       {/* drop down menu beigning  */}
-      <DropDownMenuContainer>[dropdown menu section]</DropDownMenuContainer>
+      {/* <DropDownMenuContainer>[dropdown menu section]</DropDownMenuContainer> */}
       {/* drop downmenu ending  */}
 
       {/* menu section begining */}
